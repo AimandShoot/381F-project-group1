@@ -2,9 +2,9 @@
    * Group Info
      * Group Number: 1
      * Group Members:
-             Ng Chun Yiu (12893986)
-             Louie Cheuk Hin (13135675)
-             Wu Yi Long (13508380)
+             * Ng Chun Yiu (12893986)
+             * Louie Cheuk Hin (13135675)
+             * Wu Yi Long (13508380)
 
        
 ## Project File Introduction
@@ -53,9 +53,12 @@ Transaction Schema: Handles transaction records (type, amount, description, date
 User Schema: Manages user authentication (username, password).
 
 ## Cloud Server URL
-* The application is hosted at: 
-    https://three81f-project-group1.onrender.com
-Operation Guide
+* The application is hosted at:
+  
+                    https://three81f-project-group1.onrender.com
+  
+## Operation Guide
+
 1. Login/Logout and Registration
 Navigate to /register to create a new user account.
 Navigate to /login to access the login page.
@@ -64,12 +67,14 @@ Username: test1, Password: test1
 Username: test2, Password: test2
 After login, users are redirected to the transactions page.
 Use the "Logout" button to log out and end the session.
-2. CRUD Web Pages
+
+3. CRUD Web Pages
 View Transactions: Accessible after login. Displays all transactions in a table format.
 Create Transaction: Fill in the form on the transactions page and submit to add a new record.
 Update Transaction: Click the "Edit" button next to a transaction to modify its details.
 Delete Transaction: Click the "Delete" button next to a transaction to remove it.
-3. RESTful CRUD Services
+
+4. RESTful CRUD Services
 API Endpoints:
 
 GET /api/transactions: Retrieve all transactions.
