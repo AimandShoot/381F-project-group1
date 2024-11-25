@@ -8,16 +8,18 @@
 
        
 ## Project File Introduction
-1. server.js
-This file is the core of the application, responsible for:
+* 1. server.js
+* This file is the core of the application, responsible for:
 
-Login/Logout Functionality:
+  * Login/Logout Functionality:
 User authentication using sessions.
 Registration and login system for new and existing users.
-CRUD Web Pages:
+
+  * CRUD Web Pages:
 Allows users to view, create, update, and delete transactions.
 Search transactions by type, description, or amount.
-RESTful APIs:
+
+  * RESTful APIs:
 GET /api/transactions: Retrieve all transactions.
 POST /api/transactions: Add a new transaction.
 PUT /api/transactions/:id: Update a transaction by ID.
