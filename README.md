@@ -1,11 +1,13 @@
 ## Financial Management Application
-          * Group Info
-                    *Group Number: 1
-Group Members:
-Ng Chun Yiu (12893986)
-Louie Cheuk Hin (13135675)
-Wu Yi Long (13508380)
-Project File Introduction
+   * Group Info
+     * Group Number: 1
+     * Group Members:
+             Ng Chun Yiu (12893986)
+             Louie Cheuk Hin (13135675)
+             Wu Yi Long (13508380)
+
+       
+## Project File Introduction
 1. server.js
 This file is the core of the application, responsible for:
 
@@ -49,8 +51,10 @@ Defines the data schema using Mongoose:
 
 Transaction Schema: Handles transaction records (type, amount, description, date).
 User Schema: Manages user authentication (username, password).
-Cloud Server URL
-The application is hosted at: https://three81f-project-group1.onrender.com
+
+## Cloud Server URL
+
+         The application is hosted at: https://three81f-project-group1.onrender.com
 Operation Guide
 1. Login/Logout and Registration
 Navigate to /register to create a new user account.
