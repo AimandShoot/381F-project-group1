@@ -46,11 +46,13 @@
 
 * 3. views/login.ejs
      
-  * Provides the login page UI, allowing users to authenticate and access the system.<br>
+  * Provides the login page UI, allowing users to authenticate and access the system.
+
 
 * 4. views/register.ejs
 
-  * Enables new users to register by providing a username and password.<br>
+  * Enables new users to register by providing a username and password.
+
 
 * 5. views/transactions.ejs 
 
