@@ -45,7 +45,7 @@
 
     * Scripts:
     
-    Start the server with: npm start or nodemon server.
+        Start the server with: npm start or nodemon server.
 
 3. views/login.ejs
      
@@ -61,9 +61,9 @@
 
   * Displays a dashboard for managing financial transactions, including:
 
-    Viewing all transactions.
-    Adding, updating, or deleting records.
-    Search functionality.
+      - Viewing all transactions.
+      - Adding, updating, or deleting records.
+      - Search functionality.
     
 6. models/
      
