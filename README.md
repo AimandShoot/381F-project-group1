@@ -36,14 +36,14 @@
      
   * Contains project metadata and dependency information:
 
-  * Dependencies:
+    * Dependencies:
     
-    - express: Web framework.
-    - ejs: Template engine for dynamic views.
-    - mongoose: MongoDB driver for data management.
-    - body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
+      - express: Web framework.
+      - ejs: Template engine for dynamic views.
+      - mongoose: MongoDB driver for data management.
+      - body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
 
-  * Scripts:
+    * Scripts:
     
     Start the server with: npm start or nodemon server.
 
