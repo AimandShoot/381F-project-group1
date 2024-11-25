@@ -12,47 +12,54 @@
 * This file is the core of the application, responsible for:
 
   * Login/Logout Functionality:
-User authentication using sessions.
-Registration and login system for new and existing users.
+    User authentication using sessions.
+    Registration and login system for new and existing users.
 
   * CRUD Web Pages:
-Allows users to view, create, update, and delete transactions.
-Search transactions by type, description, or amount.
+  Allows users to view, create, update, and delete transactions.
+  Search transactions by type, description, or amount.
 
   * RESTful APIs:
-GET /api/transactions: Retrieve all transactions.
-POST /api/transactions: Add a new transaction.
-PUT /api/transactions/:id: Update a transaction by ID.
-DELETE /api/transactions/:id: Delete a transaction by ID.
-Integration with MongoDB for database management.
+    GET /api/transactions: Retrieve all transactions.
+    POST /api/transactions: Add a new transaction.
+    PUT /api/transactions/:id: Update a transaction by ID.
+    DELETE /api/transactions/:id: Delete a transaction by ID.
+    Integration with MongoDB for database management.
 
 * 2. package.json
   * Contains project metadata and dependency information:
 
   * Dependencies:
-express: Web framework.
-ejs: Template engine for dynamic views.
-mongoose: MongoDB driver for data management.
-body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
+    express: Web framework.
+    ejs: Template engine for dynamic views.
+    mongoose: MongoDB driver for data management.
+    body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
+
   * Scripts:
 Start the server with: npm start or nodemon server.
 
 * 3. views/login.ejs
+     
   * Provides the login page UI, allowing users to authenticate and access the system.
 
 * 4. views/register.ejs
+
   * Enables new users to register by providing a username and password.
 
 * 5. views/transactions.ejs
-  * Displays a dashboard for managing financial transactions, including:
-  * Viewing all transactions.
-Adding, updating, or deleting records.
-Search functionality.
-6. models/
-Defines the data schema using Mongoose:
 
-Transaction Schema: Handles transaction records (type, amount, description, date).
-User Schema: Manages user authentication (username, password).
+  * Displays a dashboard for managing financial transactions, including:
+
+  * Viewing all transactions.
+    Adding, updating, or deleting records.
+    Search functionality.
+    
+* 6. models/
+     
+  * Defines the data schema using Mongoose:
+
+  * Transaction Schema: Handles transaction records (type, amount, description, date).
+    User Schema: Manages user authentication (username, password).
 
 ## Cloud Server URL
 * The application is hosted at:
