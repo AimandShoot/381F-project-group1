@@ -95,11 +95,13 @@ Update Transaction: Click the "Edit" button next to a transaction to modify its 
 Delete Transaction: Click the "Delete" button next to a transaction to remove it.
 
 4. RESTful CRUD Services
-API Endpoints:
+* API Endpoints:
 
-GET /api/transactions: Retrieve all transactions.
-Example:
+  * GET /api/transactions: Retrieve all transactions.
+    * Example:
+~~~sh
 curl -X GET "https://three81f-project-group1.onrender.com/api/transactions"
+~~~
 
 POST /api/transactions: Add a new transaction.
 Example:
