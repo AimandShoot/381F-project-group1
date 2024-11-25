@@ -32,7 +32,7 @@
     DELETE /api/transactions/:id: Delete a transaction by ID.
     Integration with MongoDB for database management.
 
-  2. package.json
+2. package.json
      
   * Contains project metadata and dependency information:
 
@@ -47,17 +47,17 @@
     
     Start the server with: npm start or nodemon server.
 
-  3. views/login.ejs
+3. views/login.ejs
      
   * Provides the login page UI, allowing users to authenticate and access the system.
 
 
-  4. views/register.ejs
+4. views/register.ejs
 
   * Enables new users to register by providing a username and password.
 
 
-  5. views/transactions.ejs 
+5. views/transactions.ejs 
 
   * Displays a dashboard for managing financial transactions, including:
 
@@ -65,7 +65,7 @@
     Adding, updating, or deleting records.
     Search functionality.
     
-  6. models/
+6. models/
      
   * Defines the data schema using Mongoose:
 
@@ -80,6 +80,7 @@
 ## Operation Guide
 
 1. Login/Logout and Registration
+   
   - Navigate to /register to create a new user account.
   - Navigate to /login to access the login page.
   - Use the following test credentials to log in:
@@ -89,12 +90,14 @@
   - Use the "Logout" button to log out and end the session.
 
 3. CRUD Web Pages
+   
   - View Transactions: Accessible after login. Displays all transactions in a table format.
   - Create Transaction: Fill in the form on the transactions page and submit to add a new record.
   - Update Transaction: Click the "Edit" button next to a transaction to modify its details.
   - Delete Transaction: Click the "Delete" button next to a transaction to remove it.
 
 4. RESTful CRUD Services
+   
 * API Endpoints:
 
   * GET /api/transactions: Retrieve all transactions.
