@@ -26,11 +26,11 @@
 
   * RESTful APIs:
     
-    GET /api/transactions: Retrieve all transactions.
-    POST /api/transactions: Add a new transaction.
-    PUT /api/transactions/:id: Update a transaction by ID.
-    DELETE /api/transactions/:id: Delete a transaction by ID.
-    Integration with MongoDB for database management.
+    - GET /api/transactions: Retrieve all transactions.
+    - POST /api/transactions: Add a new transaction.
+    - PUT /api/transactions/:id: Update a transaction by ID.
+    - DELETE /api/transactions/:id: Delete a transaction by ID.
+    - Integration with MongoDB for database management.
 
 2. package.json
      
@@ -92,8 +92,11 @@
 3. CRUD Web Pages
    
   - View Transactions: Accessible after login. Displays all transactions in a table format.
+    
   - Create Transaction: Fill in the form on the transactions page and submit to add a new record.
+    
   - Update Transaction: Click the "Edit" button next to a transaction to modify its details.
+    
   - Delete Transaction: Click the "Delete" button next to a transaction to remove it.
 
 4. RESTful CRUD Services
