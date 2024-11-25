@@ -27,26 +27,25 @@ DELETE /api/transactions/:id: Delete a transaction by ID.
 Integration with MongoDB for database management.
 
 * 2. package.json
-* Contains project metadata and dependency information:
+  * Contains project metadata and dependency information:
 
- * Dependencies:
+  * Dependencies:
 express: Web framework.
 ejs: Template engine for dynamic views.
 mongoose: MongoDB driver for data management.
 body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
- * Scripts:
+  * Scripts:
 Start the server with: npm start or nodemon server.
 
 * 3. views/login.ejs
- * Provides the login page UI, allowing users to authenticate and access the system.
+  * Provides the login page UI, allowing users to authenticate and access the system.
 
 * 4. views/register.ejs
- * Enables new users to register by providing a username and password.
+  * Enables new users to register by providing a username and password.
 
 * 5. views/transactions.ejs
- * Displays a dashboard for managing financial transactions, including:
-
-* Viewing all transactions.
+  * Displays a dashboard for managing financial transactions, including:
+  * Viewing all transactions.
 Adding, updating, or deleting records.
 Search functionality.
 6. models/
