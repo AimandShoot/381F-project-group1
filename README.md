@@ -27,15 +27,18 @@
     Integration with MongoDB for database management.
 
 * 2. package.json
+     
   * Contains project metadata and dependency information:
 
   * Dependencies:
+    
     express: Web framework.
     ejs: Template engine for dynamic views.
     mongoose: MongoDB driver for data management.
     body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
 
   * Scripts:
+    
 Start the server with: npm start or nodemon server.
 
 * 3. views/login.ejs
