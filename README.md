@@ -12,17 +12,17 @@
 * This file is the core of the application, responsible for:
 
   * Login/Logout Functionality:
-  * 
+    
     User authentication using sessions.
     Registration and login system for new and existing users.
 
   * CRUD Web Pages:
-  * 
-  Allows users to view, create, update, and delete transactions.
-  Search transactions by type, description, or amount.
+    
+    Allows users to view, create, update, and delete transactions.
+    Search transactions by type, description, or amount.
 
   * RESTful APIs:
-  * 
+    
     GET /api/transactions: Retrieve all transactions.
     POST /api/transactions: Add a new transaction.
     PUT /api/transactions/:id: Update a transaction by ID.
@@ -44,15 +44,15 @@
     
     Start the server with: npm start or nodemon server.
 
-* 3. views/login.ejs
+* 3. views/login.ejs <br>
      
   * Provides the login page UI, allowing users to authenticate and access the system.
 
-* 4. views/register.ejs
+* 4. views/register.ejs <br>
 
   * Enables new users to register by providing a username and password.
 
-* 5. views/transactions.ejs
+* 5. views/transactions.ejs 
 
   * Displays a dashboard for managing financial transactions, including:
 
