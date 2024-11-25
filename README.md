@@ -12,14 +12,17 @@
 * This file is the core of the application, responsible for:
 
   * Login/Logout Functionality:
+  * 
     User authentication using sessions.
     Registration and login system for new and existing users.
 
   * CRUD Web Pages:
+  * 
   Allows users to view, create, update, and delete transactions.
   Search transactions by type, description, or amount.
 
   * RESTful APIs:
+  * 
     GET /api/transactions: Retrieve all transactions.
     POST /api/transactions: Add a new transaction.
     PUT /api/transactions/:id: Update a transaction by ID.
@@ -38,6 +41,7 @@
     body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
 
   * Scripts:
+    
     Start the server with: npm start or nodemon server.
 
 * 3. views/login.ejs
