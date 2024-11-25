@@ -80,13 +80,13 @@
 ## Operation Guide
 
 1. Login/Logout and Registration
-Navigate to /register to create a new user account.
-Navigate to /login to access the login page.
-Use the following test credentials to log in:
-Username: test1, Password: test1
-Username: test2, Password: test2
-After login, users are redirected to the transactions page.
-Use the "Logout" button to log out and end the session.
+- Navigate to /register to create a new user account.
+- Navigate to /login to access the login page.
+- Use the following test credentials to log in:
+- Username: test1, Password: test1
+- Username: test2, Password: test2
+- After login, users are redirected to the transactions page.
+- Use the "Logout" button to log out and end the session.
 
 3. CRUD Web Pages
 View Transactions: Accessible after login. Displays all transactions in a table format.
