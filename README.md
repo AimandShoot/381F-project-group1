@@ -44,7 +44,7 @@
     
     Start the server with: npm start or nodemon server.
 
-* 3. views/login.ejs <br>
+* 3. views/login.ejs<br>
      
   * Provides the login page UI, allowing users to authenticate and access the system.
 
