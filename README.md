@@ -38,8 +38,7 @@
     body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
 
   * Scripts:
-    
-Start the server with: npm start or nodemon server.
+    Start the server with: npm start or nodemon server.
 
 * 3. views/login.ejs
      
