@@ -44,19 +44,19 @@
     
     Start the server with: npm start or nodemon server.
 
-* 3. views/login.ejs<br>
+* 3. views/login.ejs
      
-  * Provides the login page UI, allowing users to authenticate and access the system.
+  **Provides the login page UI, allowing users to authenticate and access the system.<br>
 
-* 4. views/register.ejs <br>
+* 4. views/register.ejs
 
-  * Enables new users to register by providing a username and password.
+  **Enables new users to register by providing a username and password.
 
 * 5. views/transactions.ejs 
 
   * Displays a dashboard for managing financial transactions, including:
 
-  * Viewing all transactions.
+    Viewing all transactions.
     Adding, updating, or deleting records.
     Search functionality.
     
@@ -64,7 +64,7 @@
      
   * Defines the data schema using Mongoose:
 
-  * Transaction Schema: Handles transaction records (type, amount, description, date).
+    Transaction Schema: Handles transaction records (type, amount, description, date).
     User Schema: Manages user authentication (username, password).
 
 ## Cloud Server URL
