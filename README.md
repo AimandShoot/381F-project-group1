@@ -103,22 +103,28 @@ Delete Transaction: Click the "Delete" button next to a transaction to remove it
 curl -X GET "https://three81f-project-group1.onrender.com/api/transactions"
 ~~~
 
-POST /api/transactions: Add a new transaction.
-Example:
+  * POST /api/transactions: Add a new transaction.
+    * Example:
+~~~sh
 curl -X POST "https://three81f-project-group1.onrender.com/api/transactions" \
 -H "Content-Type: application/json" \
 -d '{"type": "income", "amount": 100, "description": "Salary"}'
+~~~
 
-PUT /api/transactions/:id: Update a transaction.
-Example:
+  * PUT /api/transactions/:id: Update a transaction.
+    *  Example:
+~~~sh
 curl -X PUT "https://three81f-project-group1.onrender.com/api/transactions/123" \
 -H "Content-Type: application/json" \
 -d '{"amount": 150}'
+~~~
 
-DELETE /api/transactions/:id: Delete a transaction.
-Example:
+  * DELETE /api/transactions/:id: Delete a transaction.
+    * Example:
+~~~sh
 curl -X DELETE "https://three81f-project-group1.onrender.com/api/transactions/123"
+~~~
 
-Notes
-Ensure MongoDB is properly configured with your connection URI.
+  Notes
+  Ensure MongoDB is properly configured with your connection URI.
 Run the application locally using npm start.
