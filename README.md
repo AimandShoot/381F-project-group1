@@ -53,8 +53,8 @@ Transaction Schema: Handles transaction records (type, amount, description, date
 User Schema: Manages user authentication (username, password).
 
 ## Cloud Server URL
-
-         The application is hosted at: https://three81f-project-group1.onrender.com
+* The application is hosted at: 
+    https://three81f-project-group1.onrender.com
 Operation Guide
 1. Login/Logout and Registration
 Navigate to /register to create a new user account.
