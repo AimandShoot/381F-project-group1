@@ -112,7 +112,7 @@
 curl -X GET "https://three81f-project-group1.onrender.com/api/transactions"
 ~~~
 
-  * POST /api/transactions: Add a new transaction.
+    * POST /api/transactions: Add a new transaction.
       * Example:
 ~~~sh
 curl -X POST "https://three81f-project-group1.onrender.com/api/transactions" \
