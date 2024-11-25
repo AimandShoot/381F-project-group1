@@ -85,8 +85,8 @@
     - Navigate to /login to access the login page.
       
     - Use the following test credentials to log in:
-    - Username: test1, Password: test1
-    - Username: test2, Password: test2
+      - Username: test1, Password: test1
+      - Username: test2, Password: test2
       
     - After login, users are redirected to the transactions page.
       
@@ -94,13 +94,13 @@
 
 3. CRUD Web Pages
    
-  - View Transactions: Accessible after login. Displays all transactions in a table format.
+    - View Transactions: Accessible after login. Displays all transactions in a table format.
     
-  - Create Transaction: Fill in the form on the transactions page and submit to add a new record.
+    - Create Transaction: Fill in the form on the transactions page and submit to add a new record.
     
-  - Update Transaction: Click the "Edit" button next to a transaction to modify its details.
+    - Update Transaction: Click the "Edit" button next to a transaction to modify its details.
     
-  - Delete Transaction: Click the "Delete" button next to a transaction to remove it.
+    - Delete Transaction: Click the "Delete" button next to a transaction to remove it.
 
 4. RESTful CRUD Services
    
