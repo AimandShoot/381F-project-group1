@@ -1,4 +1,4 @@
-## Financial Management Application
+# Financial Management Application
    * Group Info
      * Group Number: 1
      * Group Members:
@@ -38,10 +38,10 @@
 
   * Dependencies:
     
-    express: Web framework.
-    ejs: Template engine for dynamic views.
-    mongoose: MongoDB driver for data management.
-    body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
+    - express: Web framework.
+    - ejs: Template engine for dynamic views.
+    - mongoose: MongoDB driver for data management.
+    - body-parser, cookie-session, and method-override: Middleware for handling sessions, form data, and request methods.
 
   * Scripts:
     
@@ -69,8 +69,8 @@
      
   * Defines the data schema using Mongoose:
 
-    Transaction Schema: Handles transaction records (type, amount, description, date).
-    User Schema: Manages user authentication (username, password).
+    - Transaction Schema: Handles transaction records (type, amount, description, date).
+    - User Schema: Manages user authentication (username, password).
 
 ## Cloud Server URL
 * The application is hosted at:
@@ -81,13 +81,17 @@
 
 1. Login/Logout and Registration
    
-  - Navigate to /register to create a new user account.
-  - Navigate to /login to access the login page.
-  - Use the following test credentials to log in:
-  - Username: test1, Password: test1
-  - Username: test2, Password: test2
-  - After login, users are redirected to the transactions page.
-  - Use the "Logout" button to log out and end the session.
+    - Navigate to /register to create a new user account.
+    - 
+    - Navigate to /login to access the login page.
+      
+    - Use the following test credentials to log in:
+    - Username: test1, Password: test1
+    - Username: test2, Password: test2
+      
+    - After login, users are redirected to the transactions page.
+      
+    - Use the "Logout" button to log out and end the session.
 
 3. CRUD Web Pages
    
