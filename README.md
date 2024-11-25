@@ -81,7 +81,7 @@
 1. Login/Logout and Registration
    
     - Navigate to /register to create a new user account.
-    - 
+      
     - Navigate to /login to access the login page.
       
     - Use the following test credentials to log in:
@@ -113,7 +113,7 @@ curl -X GET "https://three81f-project-group1.onrender.com/api/transactions"
 ~~~
 
   * POST /api/transactions: Add a new transaction.
-    * Example:
+      * Example:
 ~~~sh
 curl -X POST "https://three81f-project-group1.onrender.com/api/transactions" \
 -H "Content-Type: application/json" \
